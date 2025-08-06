@@ -17,4 +17,4 @@ gtkwave and_gate.vcd
 
 Here’s the output from GTKWave:
 
-![Waveform Output](waveform/and_gate_waveform.png)
+![Waveform Output](Waveform/and_gate_waveform.png)
