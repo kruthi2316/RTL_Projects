@@ -12,6 +12,7 @@ Simple 2-input AND gate.
 iverilog -o and_gate_tb.vvp and_gate.v and_gate_tb.v
 vvp and_gate_tb.vvp
 gtkwave and_gate.vcd
+```
 
 ## 📊 Simulation Waveform
 
