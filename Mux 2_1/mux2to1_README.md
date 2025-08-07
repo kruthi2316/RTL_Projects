@@ -1,6 +1,5 @@
 # 🔧 2:1 Multiplexer - RTL Design
 
-## 📄 Description
 
 A simple 2:1 multiplexer selects between two 1-bit inputs `a` and `b` based on a select line `sel`. If `sel` is 0, output is `a`; else it is `b`.
 
