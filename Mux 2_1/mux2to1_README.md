@@ -11,8 +11,8 @@ A simple 2:1 multiplexer selects between two 1-bit inputs `a` and `b` based on a
 ## ▶️ To Simulate
 
 ```bash
-iverilog -o output.out src/mux2to1.v src/mux2to1_tb.v
-vvp output.out
+iverilog -o mux2to1.out mux2to1.v mux2to1_tb.v
+vvp mux2to1.out
 gtkwave mux2to1.vcd
 ```
  ## 🔍 Waveform Output
