@@ -8,7 +8,7 @@ It selects one of the 1-bit inputs `a`, `b`, `c`, or `d` based on a 2-bit `sel` 
 - `mux4to1_tb.v`: Testbench
 - `mux4to1.vcd`: Waveform file (for GTKWave)
 
-## ▶️ How to Run
+## ▶️ To Simulate
 
 ```bash
 iverilog -o output.out mux4to1.v mux4to1_tb.v
