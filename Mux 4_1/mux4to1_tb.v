@@ -1,4 +1,4 @@
-// Testbench for 4:1 Multiplexer - mux4to1_tb.v
+// Testbench for 4:1 Multiplexer 
 `timescale 1ns/1ps
 
 module mux4to1_tb;
