@@ -11,8 +11,8 @@ It selects one of the 1-bit inputs `a`, `b`, `c`, or `d` based on a 2-bit `sel` 
 ## ▶️ How to Run
 
 ```bash
-iverilog -o output.out src/mux4to1.v src/mux4to1_tb.v
-vvp output.out
+iverilog -o output.out mux4to1.v mux4to1_tb.v
+vvp mux4to1.out
 gtkwave mux4to1.vcd
 ```
  ## 🔍 Waveform Output
