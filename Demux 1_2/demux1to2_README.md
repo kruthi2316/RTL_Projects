@@ -1,6 +1,5 @@
 # 🔧 1:2 Demultiplexer - RTL Design
 
-## 📄 Description
 
 This project implements a **1-to-2 demultiplexer** in Verilog.  
 It routes the single input `in` to either output `y0` or `y1` based on the select line `sel`.
