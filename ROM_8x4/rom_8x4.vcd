@@ -1,0 +1,64 @@
+$date
+	Fri Aug  8 15:42:29 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module rom_8x4_tb $end
+$var wire 4 ! data_out [3:0] $end
+$var reg 3 " addr [2:0] $end
+$scope module uut $end
+$var wire 3 # addr [2:0] $end
+$var reg 4 $ data_out [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b1 $
+b0 #
+b0 "
+b1 !
+$end
+#10000
+b10 !
+b10 $
+b1 "
+b1 #
+#20000
+b11 !
+b11 $
+b10 "
+b10 #
+#30000
+b100 !
+b100 $
+b11 "
+b11 #
+#40000
+b1000 !
+b1000 $
+b100 "
+b100 #
+#50000
+b1010 !
+b1010 $
+b101 "
+b101 #
+#60000
+b1100 !
+b1100 $
+b110 "
+b110 #
+#70000
+b1111 !
+b1111 $
+b111 "
+b111 #
+#80000

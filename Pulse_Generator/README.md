@@ -1,7 +1,5 @@
 # Pulse Generator – RTL Design
 
-## 📄 Description
-
 This project implements a **pulse generator** in Verilog.
 
 - Generates a **one-clock-cycle pulse** when the `trigger` input transitions from 0 to 1.
