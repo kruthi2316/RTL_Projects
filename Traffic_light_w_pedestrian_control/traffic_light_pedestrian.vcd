@@ -1,0 +1,209 @@
+$date
+	Fri Aug  8 10:48:40 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module traffic_light_pedestrian_tb $end
+$var wire 1 ! walk $end
+$var wire 3 " light [2:0] $end
+$var reg 1 # clk $end
+$var reg 1 $ pedestrian_request $end
+$var reg 1 % rst $end
+$scope module uut $end
+$var wire 1 # clk $end
+$var wire 1 $ pedestrian_request $end
+$var wire 1 % rst $end
+$var parameter 2 & GREEN $end
+$var parameter 2 ' RED $end
+$var parameter 2 ( WALK $end
+$var parameter 2 ) YELLOW $end
+$var reg 3 * light [2:0] $end
+$var reg 2 + next_state [1:0] $end
+$var reg 2 , state [1:0] $end
+$var reg 4 - timer [3:0] $end
+$var reg 1 ! walk $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b10 )
+b11 (
+b0 '
+b1 &
+$end
+#0
+$dumpvars
+b0 -
+b0 ,
+b0 +
+b100 *
+1%
+0$
+0#
+b100 "
+0!
+$end
+#5000
+1#
+#10000
+0#
+0%
+#15000
+b1 -
+1#
+#20000
+0#
+#25000
+b10 -
+1#
+#30000
+0#
+#35000
+b11 -
+1#
+#40000
+0#
+1$
+#45000
+b100 -
+1#
+#50000
+0#
+#55000
+b11 +
+b101 -
+1#
+#60000
+0#
+#65000
+1!
+b100 "
+b100 *
+b0 -
+b11 ,
+1#
+#70000
+0#
+0$
+#75000
+b1 -
+1#
+#80000
+0#
+#85000
+b10 -
+1#
+#90000
+0#
+#95000
+b1 +
+b11 -
+1#
+#100000
+0#
+#105000
+0!
+b1 "
+b1 *
+b0 -
+b1 ,
+1#
+#110000
+0#
+#115000
+b1 -
+1#
+#120000
+0#
+#125000
+b10 -
+1#
+#130000
+0#
+#135000
+b11 -
+1#
+#140000
+0#
+#145000
+b100 -
+1#
+#150000
+0#
+#155000
+b10 +
+b101 -
+1#
+#160000
+0#
+#165000
+b10 "
+b10 *
+b0 -
+b10 ,
+1#
+#170000
+0#
+#175000
+b1 -
+1#
+#180000
+0#
+#185000
+b0 +
+b10 -
+1#
+#190000
+0#
+#195000
+b100 "
+b100 *
+b0 -
+b0 ,
+1#
+#200000
+0#
+#205000
+b1 -
+1#
+#210000
+0#
+#215000
+b10 -
+1#
+#220000
+0#
+#225000
+b11 -
+1#
+#230000
+0#
+#235000
+b100 -
+1#
+#240000
+0#
+#245000
+b1 +
+b101 -
+1#
+#250000
+0#
+#255000
+b1 "
+b1 *
+b0 -
+b1 ,
+1#
+#260000
+0#
+#265000
+b1 -
+1#
+#270000
+0#

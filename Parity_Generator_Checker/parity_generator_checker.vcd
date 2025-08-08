@@ -1,0 +1,64 @@
+$date
+	Fri Aug  8 11:31:18 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module parity_generator_checker_tb $end
+$var wire 1 ! parity_valid $end
+$var wire 1 " odd_parity $end
+$var wire 1 # even_parity $end
+$var reg 4 $ data [3:0] $end
+$var reg 1 % mode $end
+$var reg 1 & parity_bit $end
+$scope module uut $end
+$var wire 4 ' data [3:0] $end
+$var wire 1 % mode $end
+$var wire 1 & parity_bit $end
+$var wire 1 ! parity_valid $end
+$var wire 1 " odd_parity $end
+$var wire 1 ( odd_gen $end
+$var wire 1 # even_parity $end
+$var wire 1 ) even_gen $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0)
+1(
+b1011 '
+x&
+0%
+b1011 $
+0#
+1"
+z!
+$end
+#10000
+1#
+0"
+1)
+0(
+b1111 $
+b1111 '
+#20000
+z#
+z"
+0!
+1&
+0)
+1(
+b1011 $
+b1011 '
+1%
+#30000
+1!
+0&
+#40000
