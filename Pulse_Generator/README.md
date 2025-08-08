@@ -1,4 +1,4 @@
-# 🔔 Pulse Generator – RTL Design
+#  Pulse Generator – RTL Design
 
 ## 📄 Description
 
