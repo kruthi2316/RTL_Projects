@@ -1,0 +1,54 @@
+$date
+	Sat Aug  9 13:03:33 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module bcd_to_binary_tb $end
+$var wire 14 ! binary [13:0] $end
+$var reg 16 " bcd [15:0] $end
+$scope module uut $end
+$var wire 16 # bcd [15:0] $end
+$var reg 14 $ binary [13:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 $
+b0 #
+b0 "
+b0 !
+$end
+#10000
+b1 !
+b1 $
+b1 "
+b1 #
+#20000
+b1100 !
+b1100 $
+b10010 "
+b10010 #
+#30000
+b1111011 !
+b1111011 $
+b100100011 "
+b100100011 #
+#40000
+b10011010010 !
+b10011010010 $
+b1001000110100 "
+b1001000110100 #
+#50000
+b10011100001111 !
+b10011100001111 $
+b1001100110011001 "
+b1001100110011001 #
+#60000

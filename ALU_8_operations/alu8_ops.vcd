@@ -1,0 +1,167 @@
+$date
+	Sat Aug  9 10:15:12 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module alu8_ops_tb $end
+$var wire 8 ! result [7:0] $end
+$var wire 1 " flag_z $end
+$var wire 1 # flag_v $end
+$var wire 1 $ flag_n $end
+$var wire 1 % flag_c $end
+$var parameter 32 & WIDTH $end
+$var reg 8 ' a [7:0] $end
+$var reg 8 ( b [7:0] $end
+$var reg 3 ) op [2:0] $end
+$scope module uut $end
+$var wire 8 * a [7:0] $end
+$var wire 8 + b [7:0] $end
+$var wire 3 , op [2:0] $end
+$var parameter 32 - WIDTH $end
+$var reg 1 % flag_c $end
+$var reg 1 $ flag_n $end
+$var reg 1 # flag_v $end
+$var reg 1 " flag_z $end
+$var reg 8 . result [7:0] $end
+$var reg 9 / temp [8:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1000 -
+b1000 &
+$end
+#0
+$dumpvars
+b1111 /
+b1111 .
+b0 ,
+b101 +
+b1010 *
+b0 )
+b101 (
+b1010 '
+0%
+0$
+0#
+0"
+b1111 !
+$end
+#10000
+1%
+b100101100 /
+b101100 !
+b101100 .
+b1100100 (
+b1100100 +
+b11001000 '
+b11001000 *
+#20000
+1$
+1#
+b10000000 /
+b10000000 !
+b10000000 .
+0%
+b1 (
+b1 +
+b1111111 '
+b1111111 *
+#30000
+0$
+1%
+b11110 /
+b11110 !
+b11110 .
+0#
+b1 )
+b1 ,
+b10100 (
+b10100 +
+b110010 '
+b110010 *
+#40000
+1$
+b111100010 /
+b11100010 !
+b11100010 .
+0%
+b110010 (
+b110010 +
+b10100 '
+b10100 *
+#50000
+0$
+1#
+1%
+b1111111 /
+b1111111 !
+b1111111 .
+b1 (
+b1 +
+b10000000 '
+b10000000 *
+#60000
+1$
+b0 /
+b10001000 !
+b10001000 .
+0#
+0%
+b10 )
+b10 ,
+b10101010 (
+b10101010 +
+b11001100 '
+b11001100 *
+#70000
+b11101110 !
+b11101110 .
+b11 )
+b11 ,
+#80000
+0$
+b1100110 !
+b1100110 .
+b100 )
+b100 ,
+#90000
+b110011 !
+b110011 .
+b101 )
+b101 ,
+#100000
+1%
+b100000010 /
+b10 !
+b10 .
+b110 )
+b110 ,
+b10000001 '
+b10000001 *
+#110000
+b0 /
+b1 !
+b1 .
+1%
+b111 )
+b111 ,
+b11 '
+b11 *
+#120000
+1"
+b0 !
+b0 .
+1%
+b1 )
+b1 ,
+b101 (
+b101 +
+b101 '
+b101 *
+#150000
