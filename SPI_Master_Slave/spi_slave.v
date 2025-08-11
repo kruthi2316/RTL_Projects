@@ -1,5 +1,4 @@
 // spi_slave.v
-// Verilog-2001
 // Edge-accurate SPI slave that matches master's leading/trailing semantics.
 // Parameterizable DATA_WIDTH, CPOL/CPHA support.
 

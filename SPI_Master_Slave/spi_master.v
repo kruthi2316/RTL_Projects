@@ -1,5 +1,4 @@
 // spi_master.v
-// Verilog-2001
 // Parameterizable SPI master (supports CPOL/CPHA modes 0..3)
 // Single-byte transfers (DATA_WIDTH), simple start/done handshake.
 
