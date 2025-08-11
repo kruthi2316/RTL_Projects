@@ -1,0 +1,285 @@
+$date
+	Mon Aug 11 18:46:54 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module dma_controller_tb $end
+$var wire 1 ! mem_write_en $end
+$var wire 8 " mem_write_data [7:0] $end
+$var wire 1 # mem_read_en $end
+$var wire 8 $ mem_addr [7:0] $end
+$var wire 1 % ch1_done $end
+$var wire 1 & ch0_done $end
+$var parameter 32 ' ADDR_WIDTH $end
+$var parameter 32 ( DATA_WIDTH $end
+$var parameter 32 ) MEM_DEPTH $end
+$var reg 8 * ch0_dst [7:0] $end
+$var reg 8 + ch0_size [7:0] $end
+$var reg 8 , ch0_src [7:0] $end
+$var reg 1 - ch0_start $end
+$var reg 8 . ch1_dst [7:0] $end
+$var reg 8 / ch1_size [7:0] $end
+$var reg 8 0 ch1_src [7:0] $end
+$var reg 1 1 ch1_start $end
+$var reg 1 2 clk $end
+$var reg 8 3 mem_read_data [7:0] $end
+$var reg 1 4 rst_n $end
+$var integer 32 5 i [31:0] $end
+$scope module dut $end
+$var wire 8 6 ch0_dst [7:0] $end
+$var wire 8 7 ch0_size [7:0] $end
+$var wire 8 8 ch0_src [7:0] $end
+$var wire 1 - ch0_start $end
+$var wire 1 9 ch0_start_pulse $end
+$var wire 8 : ch1_dst [7:0] $end
+$var wire 8 ; ch1_size [7:0] $end
+$var wire 8 < ch1_src [7:0] $end
+$var wire 1 1 ch1_start $end
+$var wire 1 = ch1_start_pulse $end
+$var wire 1 2 clk $end
+$var wire 8 > mem_read_data [7:0] $end
+$var wire 1 4 rst_n $end
+$var parameter 32 ? ADDR_WIDTH $end
+$var parameter 3 @ CH0_READ $end
+$var parameter 3 A CH0_WRITE $end
+$var parameter 3 B CH1_READ $end
+$var parameter 3 C CH1_WRITE $end
+$var parameter 32 D DATA_WIDTH $end
+$var parameter 3 E DONE $end
+$var parameter 3 F IDLE $end
+$var parameter 32 G MEM_DEPTH $end
+$var reg 1 & ch0_done $end
+$var reg 1 H ch0_start_r $end
+$var reg 1 % ch1_done $end
+$var reg 1 I ch1_start_r $end
+$var reg 8 J count [7:0] $end
+$var reg 1 K current_channel $end
+$var reg 8 L dst_addr_r [7:0] $end
+$var reg 8 M mem_addr [7:0] $end
+$var reg 1 # mem_read_en $end
+$var reg 8 N mem_write_data [7:0] $end
+$var reg 1 ! mem_write_en $end
+$var reg 3 O next_state [2:0] $end
+$var reg 8 P size_r [7:0] $end
+$var reg 8 Q src_addr_r [7:0] $end
+$var reg 3 R state [2:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b100000000 G
+b0 F
+b101 E
+b1000 D
+b100 C
+b11 B
+b10 A
+b1 @
+b1000 ?
+b100000000 )
+b1000 (
+b1000 '
+$end
+#0
+$dumpvars
+b0 R
+b0 Q
+b0 P
+b0 O
+b0 N
+b0 M
+b0 L
+0K
+b0 J
+0I
+0H
+b0 >
+0=
+b0 <
+b0 ;
+b0 :
+09
+b0 8
+b0 7
+b0 6
+b100000000 5
+04
+b0 3
+02
+01
+b0 0
+b0 /
+b0 .
+0-
+b0 ,
+b0 +
+b0 *
+0&
+0%
+b0 $
+0#
+b0 "
+0!
+$end
+#5000
+12
+#10000
+02
+#15000
+12
+#20000
+02
+14
+#25000
+12
+#30000
+02
+#35000
+12
+#40000
+b1 O
+19
+02
+1-
+b10 +
+b10 7
+b1100100 *
+b1100100 6
+b1010 ,
+b1010 8
+#45000
+b10 P
+b1100100 L
+b1010 Q
+b1 R
+b10 O
+09
+0-
+12
+#50000
+02
+#55000
+b1010 3
+b1010 >
+b101 O
+b1010 $
+b1010 M
+1#
+b10 R
+b1 J
+12
+#60000
+02
+#65000
+b1100101 3
+b1100101 >
+b0 O
+b10 J
+b1010 "
+b1010 N
+b1100101 $
+b1100101 M
+1!
+0#
+b101 R
+12
+#70000
+02
+#75000
+b11 O
+1=
+11
+b10 /
+b10 ;
+b10010110 .
+b10010110 :
+b110010 0
+b110010 <
+b1100110 5
+b0 +
+b0 7
+b1010 3
+b1010 >
+1&
+0!
+b0 R
+b0 J
+12
+#80000
+02
+#85000
+1K
+b10010110 L
+b110010 Q
+0&
+b11 R
+b100 O
+0=
+01
+12
+#90000
+02
+#95000
+b110010 3
+b110010 >
+b101 O
+b110010 $
+b110010 M
+1#
+b100 R
+b1 J
+12
+#100000
+02
+#105000
+b10010111 3
+b10010111 >
+b0 O
+b10 J
+b110010 "
+b110010 N
+b10010111 $
+b10010111 M
+1!
+0#
+b101 R
+12
+#110000
+02
+#115000
+b10011000 5
+b0 /
+b0 ;
+b110010 3
+b110010 >
+1%
+0!
+b0 R
+b0 J
+12
+#120000
+02
+#125000
+0%
+12
+#130000
+02
+#135000
+12
+#140000
+02
+#145000
+12
+#150000
+02
+#155000
+12
+#160000
+02
+#165000
+12
