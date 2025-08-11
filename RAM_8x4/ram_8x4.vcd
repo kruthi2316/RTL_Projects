@@ -1,0 +1,99 @@
+$date
+	Fri Aug  8 15:48:41 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module ram_8x4_tb $end
+$var wire 4 ! data_out [3:0] $end
+$var reg 3 " addr [2:0] $end
+$var reg 1 # clk $end
+$var reg 4 $ data_in [3:0] $end
+$var reg 1 % en $end
+$scope module uut $end
+$var wire 3 & addr [2:0] $end
+$var wire 1 # clk $end
+$var wire 4 ' data_in [3:0] $end
+$var wire 1 % en $end
+$var reg 4 ( data_out [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx (
+b1 '
+b0 &
+1%
+b1 $
+0#
+b0 "
+bx !
+$end
+#5000
+1#
+#10000
+0#
+b10 $
+b10 '
+b1 "
+b1 &
+#15000
+1#
+#20000
+0#
+b11 $
+b11 '
+b10 "
+b10 &
+#25000
+1#
+#30000
+0#
+b100 $
+b100 '
+b11 "
+b11 &
+#35000
+1#
+#40000
+0#
+b0 "
+b0 &
+0%
+#45000
+b1 !
+b1 (
+1#
+#50000
+0#
+b1 "
+b1 &
+#55000
+b10 !
+b10 (
+1#
+#60000
+0#
+b10 "
+b10 &
+#65000
+b11 !
+b11 (
+1#
+#70000
+0#
+b11 "
+b11 &
+#75000
+b100 !
+b100 (
+1#
+#80000
+0#

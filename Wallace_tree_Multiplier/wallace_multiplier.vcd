@@ -1,0 +1,90 @@
+$date
+	Sat Aug  9 10:39:14 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module wallace_multiplier_tb $end
+$var wire 8 ! product [7:0] $end
+$var reg 4 " a [3:0] $end
+$var reg 4 # b [3:0] $end
+$scope module uut $end
+$var wire 4 $ a [3:0] $end
+$var wire 4 % b [3:0] $end
+$var wire 4 & pp0 [3:0] $end
+$var wire 4 ' pp1 [3:0] $end
+$var wire 4 ( pp2 [3:0] $end
+$var wire 4 ) pp3 [3:0] $end
+$var wire 8 * sum2 [7:0] $end
+$var wire 8 + sum1 [7:0] $end
+$var wire 8 , product [7:0] $end
+$var wire 8 - carry2 [7:0] $end
+$var wire 8 . carry1 [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 .
+b0 -
+b1111 ,
+bz0001111 +
+b1111 *
+b0 )
+b11 (
+b0 '
+b11 &
+b101 %
+b11 $
+b101 #
+b11 "
+b1111 !
+$end
+#10000
+b1000100 -
+b11000001 !
+b11000001 ,
+b111001 *
+b110110 .
+bz1010101 +
+b1111 '
+b1111 )
+b1111 &
+b1111 (
+b1111 #
+b1111 %
+b1111 "
+b1111 $
+#20000
+b110110 !
+b110110 ,
+b110110 *
+b0 -
+bz0110110 +
+b0 .
+b0 &
+b1001 '
+b1001 (
+b0 )
+b110 #
+b110 %
+b1001 "
+b1001 $
+#30000
+b0 !
+b0 ,
+b0 *
+bz0000000 +
+b0 '
+b0 (
+b1010 #
+b1010 %
+b0 "
+b0 $
+#40000

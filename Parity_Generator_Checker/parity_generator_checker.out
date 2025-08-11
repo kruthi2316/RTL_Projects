@@ -1,0 +1,103 @@
+#! /opt/homebrew/Cellar/icarus-verilog/12.0/bin/vvp
+:ivl_version "12.0 (stable)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision - 12;
+:vpi_module "/opt/homebrew/Cellar/icarus-verilog/12.0/lib/ivl/system.vpi";
+:vpi_module "/opt/homebrew/Cellar/icarus-verilog/12.0/lib/ivl/vhdl_sys.vpi";
+:vpi_module "/opt/homebrew/Cellar/icarus-verilog/12.0/lib/ivl/vhdl_textio.vpi";
+:vpi_module "/opt/homebrew/Cellar/icarus-verilog/12.0/lib/ivl/v2005_math.vpi";
+:vpi_module "/opt/homebrew/Cellar/icarus-verilog/12.0/lib/ivl/va_math.vpi";
+S_0x13a804f30 .scope module, "parity_generator_checker_tb" "parity_generator_checker_tb" 2 3;
+ .timescale -9 -12;
+v0x13a8164b0_0 .var "data", 3 0;
+v0x13a816540_0 .net "even_parity", 0 0, L_0x13a816d00;  1 drivers
+v0x13a8165d0_0 .var "mode", 0 0;
+v0x13a816660_0 .net "odd_parity", 0 0, L_0x13a8170c0;  1 drivers
+v0x13a816710_0 .var "parity_bit", 0 0;
+v0x13a8167e0_0 .net "parity_valid", 0 0, L_0x13a817510;  1 drivers
+S_0x13a8050a0 .scope module, "uut" "parity_generator_checker" 2 10, 3 2 0, S_0x13a804f30;
+ .timescale 0 0;
+    .port_info 0 /INPUT 4 "data";
+    .port_info 1 /INPUT 1 "parity_bit";
+    .port_info 2 /INPUT 1 "mode";
+    .port_info 3 /OUTPUT 1 "even_parity";
+    .port_info 4 /OUTPUT 1 "odd_parity";
+    .port_info 5 /OUTPUT 1 "parity_valid";
+L_0x13a817460 .functor XNOR 1, v0x13a816710_0, L_0x13a816890, C4<0>, C4<0>;
+v0x13a8052f0_0 .net *"_ivl_10", 0 0, L_0x13a816be0;  1 drivers
+o0x130020040 .functor BUFZ 1, C4<z>; HiZ drive
+; Elide local net with no drivers, v0x13a8153a0_0 name=_ivl_12
+v0x13a815440_0 .net *"_ivl_16", 31 0, L_0x13a816e60;  1 drivers
+L_0x1300580a0 .functor BUFT 1, C4<0000000000000000000000000000000>, C4<0>, C4<0>, C4<0>;
+v0x13a8154f0_0 .net *"_ivl_19", 30 0, L_0x1300580a0;  1 drivers
+L_0x1300580e8 .functor BUFT 1, C4<00000000000000000000000000000000>, C4<0>, C4<0>, C4<0>;
+v0x13a8155a0_0 .net/2u *"_ivl_20", 31 0, L_0x1300580e8;  1 drivers
+v0x13a815690_0 .net *"_ivl_22", 0 0, L_0x13a816f40;  1 drivers
+o0x130020130 .functor BUFZ 1, C4<z>; HiZ drive
+; Elide local net with no drivers, v0x13a815730_0 name=_ivl_24
+v0x13a8157e0_0 .net *"_ivl_28", 31 0, L_0x13a817220;  1 drivers
+L_0x130058130 .functor BUFT 1, C4<0000000000000000000000000000000>, C4<0>, C4<0>, C4<0>;
+v0x13a815890_0 .net *"_ivl_31", 30 0, L_0x130058130;  1 drivers
+L_0x130058178 .functor BUFT 1, C4<00000000000000000000000000000001>, C4<0>, C4<0>, C4<0>;
+v0x13a8159a0_0 .net/2u *"_ivl_32", 31 0, L_0x130058178;  1 drivers
+v0x13a815a50_0 .net *"_ivl_34", 0 0, L_0x13a817340;  1 drivers
+v0x13a815af0_0 .net *"_ivl_36", 0 0, L_0x13a817460;  1 drivers
+o0x130020250 .functor BUFZ 1, C4<z>; HiZ drive
+; Elide local net with no drivers, v0x13a815b90_0 name=_ivl_38
+v0x13a815c40_0 .net *"_ivl_4", 31 0, L_0x13a816a30;  1 drivers
+L_0x130058010 .functor BUFT 1, C4<0000000000000000000000000000000>, C4<0>, C4<0>, C4<0>;
+v0x13a815cf0_0 .net *"_ivl_7", 30 0, L_0x130058010;  1 drivers
+L_0x130058058 .functor BUFT 1, C4<00000000000000000000000000000000>, C4<0>, C4<0>, C4<0>;
+v0x13a815da0_0 .net/2u *"_ivl_8", 31 0, L_0x130058058;  1 drivers
+v0x13a815e50_0 .net "data", 3 0, v0x13a8164b0_0;  1 drivers
+v0x13a815fe0_0 .net "even_gen", 0 0, L_0x13a816890;  1 drivers
+v0x13a816070_0 .net "even_parity", 0 0, L_0x13a816d00;  alias, 1 drivers
+v0x13a816100_0 .net "mode", 0 0, v0x13a8165d0_0;  1 drivers
+v0x13a8161a0_0 .net "odd_gen", 0 0, L_0x13a816990;  1 drivers
+v0x13a816240_0 .net "odd_parity", 0 0, L_0x13a8170c0;  alias, 1 drivers
+v0x13a8162e0_0 .net "parity_bit", 0 0, v0x13a816710_0;  1 drivers
+v0x13a816380_0 .net "parity_valid", 0 0, L_0x13a817510;  alias, 1 drivers
+L_0x13a816890 .reduce/xnor v0x13a8164b0_0;
+L_0x13a816990 .reduce/xor v0x13a8164b0_0;
+L_0x13a816a30 .concat [ 1 31 0 0], v0x13a8165d0_0, L_0x130058010;
+L_0x13a816be0 .cmp/eq 32, L_0x13a816a30, L_0x130058058;
+L_0x13a816d00 .functor MUXZ 1, o0x130020040, L_0x13a816890, L_0x13a816be0, C4<>;
+L_0x13a816e60 .concat [ 1 31 0 0], v0x13a8165d0_0, L_0x1300580a0;
+L_0x13a816f40 .cmp/eq 32, L_0x13a816e60, L_0x1300580e8;
+L_0x13a8170c0 .functor MUXZ 1, o0x130020130, L_0x13a816990, L_0x13a816f40, C4<>;
+L_0x13a817220 .concat [ 1 31 0 0], v0x13a8165d0_0, L_0x130058130;
+L_0x13a817340 .cmp/eq 32, L_0x13a817220, L_0x130058178;
+L_0x13a817510 .functor MUXZ 1, o0x130020250, L_0x13a817460, L_0x13a817340, C4<>;
+    .scope S_0x13a804f30;
+T_0 ;
+    %vpi_call 2 20 "$dumpfile", "parity_generator_checker.vcd" {0 0 0};
+    %vpi_call 2 21 "$dumpvars", 32'sb00000000000000000000000000000000, S_0x13a804f30 {0 0 0};
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x13a8165d0_0, 0, 1;
+    %pushi/vec4 11, 0, 4;
+    %store/vec4 v0x13a8164b0_0, 0, 4;
+    %delay 10000, 0;
+    %pushi/vec4 15, 0, 4;
+    %store/vec4 v0x13a8164b0_0, 0, 4;
+    %delay 10000, 0;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x13a8165d0_0, 0, 1;
+    %pushi/vec4 11, 0, 4;
+    %store/vec4 v0x13a8164b0_0, 0, 4;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x13a816710_0, 0, 1;
+    %delay 10000, 0;
+    %pushi/vec4 11, 0, 4;
+    %store/vec4 v0x13a8164b0_0, 0, 4;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x13a816710_0, 0, 1;
+    %delay 10000, 0;
+    %vpi_call 2 33 "$finish" {0 0 0};
+    %end;
+    .thread T_0;
+# The file index is used to find the file name in the following table.
+:file_names 4;
+    "N/A";
+    "<interactive>";
+    "parity_generator_checker_tb.v";
+    "parity_generator_checker.v";
