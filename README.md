@@ -26,12 +26,12 @@ Make sure you have the following tools installed:
 
 ## Author
 
-**Name:** Kruthi Narayana Swamy  
-**Role:** Graduate Teaching Assistant | VLSI Digital Design Enthusiast 
-**Interests:** RTL Design, Digital Electronics, Physical Design, VLSI Design, PCB Design, Circuit Design, Analog Design
-**Programming Languages:** Verilog, SystemVerilog, Tcl, Python, C/C++.
-**Simulation Tools:**  Cadence Virtuoso, Innovus, Genus, Synopsys Design Compiler, VCS, ALtium Designer, Icarus Verilog, GTKWave, Xilinx Vivado, AWR Microwave Office, VSCode. 
-**GitHub:** [kruthi2316](https://github.com/kruthi2316)  
-**LinkedIn:** [linkedin.com/in/kruthi-narayana-swamy](https://www.linkedin.com/in/kruthi-narayana-swamy)  
+- **Name:** Kruthi Narayana Swamy  
+- **Role:** Graduate Teaching Assistant | VLSI Digital Design Enthusiast 
+- **Interests:** RTL Design, Digital Electronics, Physical Design, VLSI Design, PCB Design, Circuit Design, Analog Design
+- **Programming Languages:** Verilog, SystemVerilog, Tcl, Python, C/C++.
+- **Simulation Tools:**  Cadence Virtuoso, Innovus, Genus, Synopsys Design Compiler, VCS, ALtium Designer, Icarus Verilog, GTKWave, Xilinx Vivado, AWR Microwave Office, VSCode. 
+- **GitHub:** [kruthi2316](https://github.com/kruthi2316)  
+- **LinkedIn:** [linkedin.com/in/kruthi-narayana-swamy](https://www.linkedin.com/in/kruthi-narayana-swamy)  
 
 
